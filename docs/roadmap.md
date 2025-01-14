@@ -25,3 +25,4 @@
 <!-- [2025-02-20T11:42:15+05:30] docs: outline syllabus module architecture in roadmap -->
 <!-- [2025-02-20T17:28:40+05:30] refactor: extract search query state helper -->
 <!-- [2025-01-14T11:34:23+05:30] docs: document curriculum data schema in roadmap -->
+<!-- [2025-01-14T12:48:46+05:30] feat: add course filter options for frontend tracks -->
