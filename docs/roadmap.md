@@ -29,3 +29,4 @@
 <!-- [2025-01-14T14:03:09+05:30] style: adjust course card grid spacing and margin tokens -->
 <!-- [2025-01-14T15:17:32+05:30] refactor: extract search filter state into custom hook -->
 <!-- [2025-01-14T16:32:55+05:30] perf: optimize course list filtering performance -->
+<!-- [2025-01-14T17:46:18+05:30] fix: prevent layout shift on async category load -->
