@@ -32,3 +32,4 @@
 <!-- [2025-01-14T17:46:18+05:30] fix: prevent layout shift on async category load -->
 <!-- [2025-01-14T19:01:41+05:30] style: refine search input placeholder and icon alignment -->
 <!-- [2025-01-14T20:15:04+05:30] test: add unit test coverage for course query parser -->
+<!-- [2025-01-15T11:20:23+05:30] docs: update course enrollment flow in roadmap -->
