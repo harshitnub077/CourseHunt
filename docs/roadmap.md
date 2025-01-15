@@ -41,3 +41,4 @@
 <!-- [2025-01-15T17:26:41+05:30] feat: add difficulty badge indicator (Beginner, Advanced) -->
 <!-- [2025-01-15T18:27:04+05:30] style: tune badge color contrast against dark surfaces -->
 <!-- [2025-01-15T19:28:27+05:30] test: verify instructor drawer open and close interactions -->
+<!-- [2025-01-15T20:29:50+05:30] chore: update dependencies and remove unused imports -->
