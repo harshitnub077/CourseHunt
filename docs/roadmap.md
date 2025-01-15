@@ -33,3 +33,4 @@
 <!-- [2025-01-14T19:01:41+05:30] style: refine search input placeholder and icon alignment -->
 <!-- [2025-01-14T20:15:04+05:30] test: add unit test coverage for course query parser -->
 <!-- [2025-01-15T11:20:23+05:30] docs: update course enrollment flow in roadmap -->
+<!-- [2025-01-15T12:21:46+05:30] feat: add instructor biography preview drawer -->
