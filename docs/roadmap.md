@@ -38,3 +38,4 @@
 <!-- [2025-01-15T14:23:32+05:30] perf: memoize expensive search result calculations -->
 <!-- [2025-01-15T15:24:55+05:30] fix: resolve mobile navigation drawer z-index clash -->
 <!-- [2025-01-15T16:25:18+05:30] refactor: clean up redundant CSS rules in course card styles -->
+<!-- [2025-01-15T17:26:41+05:30] feat: add difficulty badge indicator (Beginner, Advanced) -->
