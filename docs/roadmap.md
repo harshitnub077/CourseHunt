@@ -34,3 +34,4 @@
 <!-- [2025-01-14T20:15:04+05:30] test: add unit test coverage for course query parser -->
 <!-- [2025-01-15T11:20:23+05:30] docs: update course enrollment flow in roadmap -->
 <!-- [2025-01-15T12:21:46+05:30] feat: add instructor biography preview drawer -->
+<!-- [2025-01-15T13:22:09+05:30] style: standardize modal close button styling -->
