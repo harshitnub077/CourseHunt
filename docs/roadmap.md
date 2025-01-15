@@ -40,3 +40,4 @@
 <!-- [2025-01-15T16:25:18+05:30] refactor: clean up redundant CSS rules in course card styles -->
 <!-- [2025-01-15T17:26:41+05:30] feat: add difficulty badge indicator (Beginner, Advanced) -->
 <!-- [2025-01-15T18:27:04+05:30] style: tune badge color contrast against dark surfaces -->
+<!-- [2025-01-15T19:28:27+05:30] test: verify instructor drawer open and close interactions -->
