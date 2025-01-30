@@ -12,3 +12,11 @@ CourseHunt is an open-source platform for discovering and managing online progra
 - React 18
 - React Router v6
 - Tailwind CSS & PostCSS
+
+### Local Development Setup
+```bash
+git clone https://github.com/harshitnub077/CourseHunt.git
+cd CourseHunt
+npm install
+npm start
+```
