@@ -20,3 +20,5 @@ cd CourseHunt
 npm install
 npm start
 ```
+
+<!-- Documentation reviewed for formatting and clarity -->
