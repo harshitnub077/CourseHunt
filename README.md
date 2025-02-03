@@ -22,3 +22,8 @@ npm start
 ```
 
 <!-- Documentation reviewed for formatting and clarity -->
+
+### Available Scripts
+- `npm start` - Runs local dev server on port 3000
+- `npm run build` - Builds production bundle
+- `npm test` - Runs test suite
