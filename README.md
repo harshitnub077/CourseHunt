@@ -27,3 +27,8 @@ npm start
 - `npm start` - Runs local dev server on port 3000
 - `npm run build` - Builds production bundle
 - `npm test` - Runs test suite
+
+### Roadmap
+- [x] Course listing and filtering UI
+- [x] Detailed course syllabus modal
+- [ ] Student reviews and rating submission
