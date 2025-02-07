@@ -32,3 +32,6 @@ npm start
 - [x] Course listing and filtering UI
 - [x] Detailed course syllabus modal
 - [ ] Student reviews and rating submission
+
+## License
+Distributed under the MIT License.
