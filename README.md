@@ -37,3 +37,5 @@ npm start
 Distributed under the MIT License.
 
 <!-- Verified documentation links -->
+
+<!-- Enhanced mobile view documentation -->
