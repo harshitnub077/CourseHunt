@@ -23,3 +23,4 @@
 <!-- [2025-04-05T20:23:15+05:30] test: add unit test fixtures for pricing calculations -->
 <!-- [2025-04-05T21:04:32+05:30] chore: refresh linting and formatting configuration -->
 <!-- [2025-02-20T11:42:15+05:30] docs: outline syllabus module architecture in roadmap -->
+<!-- [2025-02-20T17:28:40+05:30] refactor: extract search query state helper -->
