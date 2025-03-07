@@ -28,3 +28,8 @@ yarn-error.log*
 *.suo
 *.ntvs*
 *.njsproj
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
