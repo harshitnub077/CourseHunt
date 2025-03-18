@@ -46,3 +46,4 @@
 <!-- [2025-03-18T13:07:46+05:30] feat: add expandable syllabus accordion for course chapters -->
 <!-- [2025-03-18T14:31:09+05:30] style: enhance accordion chevron rotation animation -->
 <!-- [2025-03-18T15:55:32+05:30] perf: lazy load course lecture preview video thumbnails -->
+<!-- [2025-03-18T17:18:55+05:30] fix: handle edge case with missing lecture duration metadata -->
