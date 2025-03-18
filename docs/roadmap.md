@@ -47,3 +47,4 @@
 <!-- [2025-03-18T14:31:09+05:30] style: enhance accordion chevron rotation animation -->
 <!-- [2025-03-18T15:55:32+05:30] perf: lazy load course lecture preview video thumbnails -->
 <!-- [2025-03-18T17:18:55+05:30] fix: handle edge case with missing lecture duration metadata -->
+<!-- [2025-03-18T18:42:18+05:30] refactor: extract lecture duration formatting utility -->
