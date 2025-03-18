@@ -48,3 +48,4 @@
 <!-- [2025-03-18T15:55:32+05:30] perf: lazy load course lecture preview video thumbnails -->
 <!-- [2025-03-18T17:18:55+05:30] fix: handle edge case with missing lecture duration metadata -->
 <!-- [2025-03-18T18:42:18+05:30] refactor: extract lecture duration formatting utility -->
+<!-- [2025-03-18T20:06:41+05:30] test: add unit tests for lecture time formatting helper -->
