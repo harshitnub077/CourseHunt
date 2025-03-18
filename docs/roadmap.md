@@ -42,3 +42,4 @@
 <!-- [2025-01-15T18:27:04+05:30] style: tune badge color contrast against dark surfaces -->
 <!-- [2025-01-15T19:28:27+05:30] test: verify instructor drawer open and close interactions -->
 <!-- [2025-01-15T20:29:50+05:30] chore: update dependencies and remove unused imports -->
+<!-- [2025-03-18T11:43:23+05:30] docs: document course module syllabus structure in roadmap -->
