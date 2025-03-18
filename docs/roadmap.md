@@ -44,3 +44,4 @@
 <!-- [2025-01-15T20:29:50+05:30] chore: update dependencies and remove unused imports -->
 <!-- [2025-03-18T11:43:23+05:30] docs: document course module syllabus structure in roadmap -->
 <!-- [2025-03-18T13:07:46+05:30] feat: add expandable syllabus accordion for course chapters -->
+<!-- [2025-03-18T14:31:09+05:30] style: enhance accordion chevron rotation animation -->
