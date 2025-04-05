@@ -21,3 +21,4 @@
 <!-- [2025-04-05T19:02:41+05:30] style: standardize button border radius tokens -->
 <!-- [2025-04-05T19:43:58+05:30] docs: update developer setup prerequisites in roadmap -->
 <!-- [2025-04-05T20:23:15+05:30] test: add unit test fixtures for pricing calculations -->
+<!-- [2025-04-05T21:04:32+05:30] chore: refresh linting and formatting configuration -->
