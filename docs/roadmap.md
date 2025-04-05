@@ -18,3 +18,4 @@
 <!-- [2025-04-05T17:00:50+05:30] refactor: modularize course instructor card component -->
 <!-- [2025-04-05T17:41:07+05:30] perf: optimize course thumbnail image loading priority -->
 <!-- [2025-04-05T18:22:24+05:30] fix: prevent duplicate query triggers during fast typing -->
+<!-- [2025-04-05T19:02:41+05:30] style: standardize button border radius tokens -->
