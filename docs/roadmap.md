@@ -15,3 +15,4 @@
 <!-- [2025-04-05T14:59:59+05:30] feat: add category filter pills for programming courses -->
 <!-- [2025-04-05T15:39:16+05:30] style: refine primary accent color variables -->
 <!-- [2025-04-05T16:20:33+05:30] docs: add enrollment flow sequence diagram to docs -->
+<!-- [2025-04-05T17:00:50+05:30] refactor: modularize course instructor card component -->
