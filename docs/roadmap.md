@@ -12,3 +12,4 @@
 <!-- [2025-04-05T12:57:08+05:30] perf: memoize filtered course list calculation -->
 <!-- [2025-04-05T13:37:25+05:30] docs: document rating breakdown component specifications -->
 <!-- [2025-04-05T14:18:42+05:30] fix: resolve badge text alignment on mobile viewport -->
+<!-- [2025-04-05T14:59:59+05:30] feat: add category filter pills for programming courses -->
