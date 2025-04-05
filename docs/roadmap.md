@@ -10,3 +10,4 @@
 <!-- [2025-04-05T11:36:34+05:30] refactor: extract search query state helper -->
 <!-- [2025-04-05T12:16:51+05:30] style: polish course card shadow and hover state -->
 <!-- [2025-04-05T12:57:08+05:30] perf: memoize filtered course list calculation -->
+<!-- [2025-04-05T13:37:25+05:30] docs: document rating breakdown component specifications -->
