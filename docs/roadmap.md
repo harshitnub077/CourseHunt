@@ -51,3 +51,4 @@
 <!-- [2025-03-18T20:06:41+05:30] test: add unit tests for lecture time formatting helper -->
 <!-- [2025-04-09T11:27:23+05:30] docs: outline student review submission specs in roadmap -->
 <!-- [2025-04-09T12:34:46+05:30] feat: add star rating input component with hover highlight -->
+<!-- [2025-04-09T13:41:09+05:30] style: polish review card border radius and shadow tokens -->
