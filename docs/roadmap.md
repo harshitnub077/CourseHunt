@@ -50,3 +50,4 @@
 <!-- [2025-03-18T18:42:18+05:30] refactor: extract lecture duration formatting utility -->
 <!-- [2025-03-18T20:06:41+05:30] test: add unit tests for lecture time formatting helper -->
 <!-- [2025-04-09T11:27:23+05:30] docs: outline student review submission specs in roadmap -->
+<!-- [2025-04-09T12:34:46+05:30] feat: add star rating input component with hover highlight -->
