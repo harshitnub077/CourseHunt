@@ -53,3 +53,4 @@
 <!-- [2025-04-09T12:34:46+05:30] feat: add star rating input component with hover highlight -->
 <!-- [2025-04-09T13:41:09+05:30] style: polish review card border radius and shadow tokens -->
 <!-- [2025-04-09T14:48:32+05:30] refactor: separate review list into paginated subcomponent -->
+<!-- [2025-04-09T15:55:55+05:30] perf: throttle window scroll listener during page navigation -->
