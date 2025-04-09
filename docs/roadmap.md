@@ -54,3 +54,4 @@
 <!-- [2025-04-09T13:41:09+05:30] style: polish review card border radius and shadow tokens -->
 <!-- [2025-04-09T14:48:32+05:30] refactor: separate review list into paginated subcomponent -->
 <!-- [2025-04-09T15:55:55+05:30] perf: throttle window scroll listener during page navigation -->
+<!-- [2025-04-09T17:02:18+05:30] fix: prevent empty text submission in review dialog -->
