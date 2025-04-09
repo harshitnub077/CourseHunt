@@ -57,3 +57,4 @@
 <!-- [2025-04-09T17:02:18+05:30] fix: prevent empty text submission in review dialog -->
 <!-- [2025-04-09T18:09:41+05:30] feat: add verified student badge on review items -->
 <!-- [2025-04-09T19:16:04+05:30] style: refine review author avatar fallback styles -->
+<!-- [2025-04-09T20:23:27+05:30] test: add form validation test cases for reviews -->
