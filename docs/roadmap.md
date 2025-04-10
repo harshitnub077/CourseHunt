@@ -62,3 +62,4 @@
 <!-- [2025-04-10T12:11:46+05:30] feat: add course bookmarking and wishlist toggle -->
 <!-- [2025-04-10T13:07:09+05:30] style: tune heart icon toggle pulse animation -->
 <!-- [2025-04-10T14:03:32+05:30] perf: cache user bookmarked course IDs in local storage -->
+<!-- [2025-04-10T14:59:55+05:30] fix: resolve bookmark state desync on page reload -->
