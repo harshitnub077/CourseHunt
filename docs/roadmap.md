@@ -60,3 +60,4 @@
 <!-- [2025-04-09T20:23:27+05:30] test: add form validation test cases for reviews -->
 <!-- [2025-04-10T11:15:23+05:30] docs: finalize Q2 course platform roadmap milestone list -->
 <!-- [2025-04-10T12:11:46+05:30] feat: add course bookmarking and wishlist toggle -->
+<!-- [2025-04-10T13:07:09+05:30] style: tune heart icon toggle pulse animation -->
