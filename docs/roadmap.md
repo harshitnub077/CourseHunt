@@ -68,3 +68,4 @@
 <!-- [2025-04-10T17:46:04+05:30] style: standardize toast notification slide-in animation -->
 <!-- [2025-04-10T18:42:27+05:30] test: add integration test for wishlist toggle flow -->
 <!-- [2025-04-10T19:38:50+05:30] style: adjust responsive button sizes for small mobile screens -->
+<!-- [2025-04-10T20:34:13+05:30] chore: clean up console log statements across components -->
