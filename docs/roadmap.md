@@ -59,3 +59,4 @@
 <!-- [2025-04-09T19:16:04+05:30] style: refine review author avatar fallback styles -->
 <!-- [2025-04-09T20:23:27+05:30] test: add form validation test cases for reviews -->
 <!-- [2025-04-10T11:15:23+05:30] docs: finalize Q2 course platform roadmap milestone list -->
+<!-- [2025-04-10T12:11:46+05:30] feat: add course bookmarking and wishlist toggle -->
