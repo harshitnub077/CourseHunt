@@ -65,3 +65,4 @@
 <!-- [2025-04-10T14:59:55+05:30] fix: resolve bookmark state desync on page reload -->
 <!-- [2025-04-10T15:55:18+05:30] refactor: consolidate wishlist state under unified provider -->
 <!-- [2025-04-10T16:50:41+05:30] feat: implement toast notification on course bookmarking -->
+<!-- [2025-04-10T17:46:04+05:30] style: standardize toast notification slide-in animation -->
