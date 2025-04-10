@@ -66,3 +66,4 @@
 <!-- [2025-04-10T15:55:18+05:30] refactor: consolidate wishlist state under unified provider -->
 <!-- [2025-04-10T16:50:41+05:30] feat: implement toast notification on course bookmarking -->
 <!-- [2025-04-10T17:46:04+05:30] style: standardize toast notification slide-in animation -->
+<!-- [2025-04-10T18:42:27+05:30] test: add integration test for wishlist toggle flow -->
