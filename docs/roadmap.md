@@ -63,3 +63,4 @@
 <!-- [2025-04-10T13:07:09+05:30] style: tune heart icon toggle pulse animation -->
 <!-- [2025-04-10T14:03:32+05:30] perf: cache user bookmarked course IDs in local storage -->
 <!-- [2025-04-10T14:59:55+05:30] fix: resolve bookmark state desync on page reload -->
+<!-- [2025-04-10T15:55:18+05:30] refactor: consolidate wishlist state under unified provider -->
