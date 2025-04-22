@@ -5,3 +5,5 @@ export const COURSE_CATEGORIES = [
   'Cloud & DevOps',
   'Cybersecurity'
 ];
+
+export const DIFFICULTY_LEVELS = ['All Levels', 'Beginner', 'Intermediate', 'Advanced'];
