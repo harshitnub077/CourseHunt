@@ -14,3 +14,8 @@ export const formatCourseDuration = (minutes) => {
   const m = minutes % 60;
   return h > 0 ? `${h} hr ${m} min` : `${m} min`;
 };
+
+export const calculateDiscountPercentage = (original, current) => {
+  if (!original || original <= current) return 0;
+  return Math.round(((original - current) / original) * 100);
+};
