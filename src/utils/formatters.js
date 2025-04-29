@@ -19,3 +19,8 @@ export const calculateDiscountPercentage = (original, current) => {
   if (!original || original <= current) return 0;
   return Math.round(((original - current) / original) * 100);
 };
+
+/**
+ * Formats numeric rating to 1 decimal place
+ */
+export const formatRating = (rating) => (typeof rating === 'number' ? rating.toFixed(1) : '0.0');
