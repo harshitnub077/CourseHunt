@@ -24,3 +24,5 @@ export const calculateDiscountPercentage = (original, current) => {
  * Formats numeric rating to 1 decimal place
  */
 export const formatRating = (rating) => (typeof rating === 'number' ? rating.toFixed(1) : '0.0');
+
+// Clean up utility exports and comments
