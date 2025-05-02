@@ -6,3 +6,5 @@ Prerequisites:
 
 ## Environment Variables
 Create a `.env` file with `REACT_APP_API_URL`.
+
+<!-- Formatting tweak -->
