@@ -8,7 +8,7 @@ const Footer = () => {
       <section className='newletter'>
         <div className='container flexSB'>
           <div className='left row'>
-            <h1>Newsletter - Stay tune and get the latest update</h1>
+            <h1>CourseHunt helps you discover the best online learning options tailored to your career goals.</h1>
             <span>Far far away, behind the word mountains</span>
           </div>
           <div className='right row'>
@@ -22,7 +22,7 @@ const Footer = () => {
           <div className='box logo'>
             <h1>COURSE HUNT</h1>
             <span>ONLINE EDUCATION & LEARNING</span>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <p>Get personalized course recommendations, new updates, and top learning tips straight to your inbox.</p>
 
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
@@ -38,17 +38,6 @@ const Footer = () => {
               <li>Contact us</li>
             </ul>
           </div>
-          <div className='box link'>
-            <h3>Quick Links</h3>
-            <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
-            </ul>
-          </div>
-
           <div className='box last'>
             <h3>Have a Questions?</h3>
             <ul>
@@ -58,11 +47,11 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +91 7678410891
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                harshitkudhial@gmail.com
               </li>
             </ul>
           </div>
