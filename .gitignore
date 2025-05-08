@@ -47,3 +47,5 @@ Thumbs.db
 # Build outputs
 build/
 dist/
+
+# Temporary scratch
