@@ -9,3 +9,5 @@ All notable changes to CourseHunt will be documented here.
 ## [0.2.0] - Polish & Responsiveness
 - Added responsive drawer for mobile
 - Improved course card shadow effects
+
+<!-- WIP: upcoming patch notes -->
