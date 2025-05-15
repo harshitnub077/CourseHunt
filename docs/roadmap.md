@@ -4,3 +4,5 @@
 - [x] Responsive layout
 - [x] Search indexing
 - [ ] User authentication flow
+
+<!-- Updated roadmap milestones -->
