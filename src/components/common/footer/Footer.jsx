@@ -5,18 +5,6 @@ import "./footer.css"
 const Footer = () => {
   return (
     <>
-      <section className='newletter'>
-        <div className='container flexSB'>
-          <div className='left row'>
-            <h1>CourseHunt helps you discover the best online learning options tailored to your career goals.</h1>
-            <span>Far far away, behind the word mountains</span>
-          </div>
-          <div className='right row'>
-            <input type='text' placeholder='Enter email address' />
-            <i className='fa fa-paper-plane'></i>
-          </div>
-        </div>
-      </section>
       <footer>
         <div className='container padding'>
           <div className='box logo'>
@@ -63,3 +51,4 @@ const Footer = () => {
 }
 
 export default Footer
+
