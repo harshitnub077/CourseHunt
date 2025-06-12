@@ -1,35 +1,78 @@
+// filepath: /Users/harshitkudhial/Documents/GitHub/CourseHunt/src/components/common/header/Head.jsx
 import React from "react"
-import { Link } from "react-router-dom" // Add this import
+import { Link, useHistory } from "react-router-dom"
 
-const Head = () => {
+const Head = ({ user, setUser }) => {
+  const history = useHistory()
+
+  const handleLogout = () => {
+    localStorage.removeItem("currentUser")
+    setUser(null)
+    history.push("/")
+  }
+
   return (
-    <>
-      <section className='head'>
-        <div className='container flexSB'>
-          <div className='logo'>
-            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-              <h1>COURSE HUNT</h1>
-            </Link>
+    <section className='head'>
+      <div className='container flexSB'>
+        <div className='logo'>
+          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <h1>COURSE HUNT</h1>
             <span>ONLINE EDUCATION & LEARNING</span>
-          </div>
-
-          <div className='social'>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <i className='fab fa-facebook-f icon'></i>
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <i className='fab fa-instagram icon'></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <i className='fab fa-twitter icon'></i>
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-              <i className='fab fa-youtube icon'></i>
-            </a>
-          </div>
+          </Link>
         </div>
-      </section>
-    </>
+
+        <div className='social'>
+          {user ? (
+            <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+              <span>Welcome, {user.name}!</span>
+              <Link 
+                to="/"
+                onClick={handleLogout}
+                style={{
+                  background: "#1eb2a6",
+                  color: "#fff",
+                  textDecoration: "none",
+                  borderRadius: "10px",
+                  padding: "0.5rem 1rem",
+                  fontWeight: 600
+                }}
+              >
+                Logout
+              </Link>
+            </div>
+          ) : (
+            <div style={{ display: "flex", gap: "10px" }}>
+              <Link 
+                to="/login"
+                style={{
+                  background: "#1eb2a6",
+                  color: "#fff",
+                  textDecoration: "none",
+                  borderRadius: "10px",
+                  padding: "0.5rem 1rem",
+                  fontWeight: 600
+                }}
+              >
+                Login
+              </Link>
+              <Link 
+                to="/signup"
+                style={{
+                  background: "#1eb2a6",
+                  color: "#fff",
+                  textDecoration: "none",
+                  borderRadius: "10px",
+                  padding: "0.5rem 1rem",
+                  fontWeight: 600
+                }}
+              >
+                Signup
+              </Link>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
   )
 }
 

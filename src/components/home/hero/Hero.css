@@ -20,6 +20,10 @@
   margin: 0;
   padding: 0;
 }
+.button {
+  display: flex;
+  gap: 1rem;
+}
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;

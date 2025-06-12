@@ -49,12 +49,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by John Smith",
+        name: "by Dr. Ananya Sharma",
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    priceAll: "₹100 All Course",
+    pricePer: "₹15 per month",
   },
   {
     id: 2,
@@ -63,12 +63,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Ram Gurung",
+        name: "by Prof. Rohan Mehra",
         totalTime: "30 lectures (125 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$25 per month",
+    priceAll: "₹200 All Course",
+    pricePer: "₹25 per month",
   },
   {
     id: 3,
@@ -77,12 +77,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
+        name: "by Dr. Priya Singh",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "$5 per month",
+    priceAll: "₹50 All Course",
+    pricePer: "₹5 per month",
   },
   {
     id: 4,
@@ -91,12 +91,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
+        name: "by Prof. Arjun Patel",
         totalTime: "20 lectures (20 hrs)",
       },
     ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
+    priceAll: "₹30 All Course",
+    pricePer: "₹3 per month",
   },
   {
     id: 5,
@@ -105,12 +105,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
+        name: "by Dr. Kavita Rao",
         totalTime: "100 lectures (150 hrs)",
       },
     ],
-    priceAll: "$300 All Course",
-    pricePer: "$30 per month",
+    priceAll: "₹300 All Course",
+    pricePer: "₹30 per month",
   },
   {
     id: 6,
@@ -119,12 +119,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
+        name: "by Prof. Suresh Iyer",
         totalTime: "200 lectures (300 hrs)",
       },
     ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
+    priceAll: "₹500 All Course",
+    pricePer: "₹80 per month",
   },
   {
     id: 7,
@@ -133,12 +133,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Price",
+        name: "by Dr. Meena Nair",
         totalTime: "20 lectures (50 hrs)",
       },
     ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
+    priceAll: "₹20 All Course",
+    pricePer: "₹2 per month",
   },
   {
     id: 8,
@@ -147,12 +147,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Petter",
+        name: "by Prof. Rajeev Menon",
         totalTime: "80 lectures (200 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
+    priceAll: "₹200 All Course",
+    pricePer: "₹40 per month",
   },
   {
     id: 9,
@@ -161,12 +161,12 @@ export const coursesCard = [
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Petter",
+        name: "by Dr. Neha Verma",
         totalTime: "50 lectures (50 hrs)",
       },
     ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
+    priceAll: "₹20 All Course",
+    pricePer: "₹3 per month",
   },
 ]
 export const online = [
@@ -246,42 +246,42 @@ export const online = [
 export const team = [
   {
     cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
+    name: "Ph.D Dr. Ananya Sharma",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
+    name: "Ph.D Prof. Rohan Mehra",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
+    name: "Ph.D Dr. Priya Singh",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
+    name: "Ph.D Prof. Arjun Patel",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
+    name: "Ph.D Dr. Kavita Rao",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
+    name: "Ph.D Prof. Suresh Iyer",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
+    name: "Ph.D Dr. Meena Nair",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
+    name: "Ph.D Prof. Rajeev Menon",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
 ]
@@ -337,7 +337,7 @@ export const blog = [
   {
     id: 1,
     type: "admin",
-    date: "JAN. 18, 2021",
+    date: "JUN. 10, 2024",
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
@@ -346,7 +346,7 @@ export const blog = [
   {
     id: 2,
     type: "admin",
-    date: "API. 25, 2022",
+    date: "MAY. 25, 2024",
     com: "5 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
@@ -355,7 +355,7 @@ export const blog = [
   {
     id: 3,
     type: "user",
-    date: "MAY. 15, 2022",
+    date: "APR. 15, 2024",
     com: "10 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
@@ -364,7 +364,7 @@ export const blog = [
   {
     id: 4,
     type: "admin",
-    date: "JAN. 02, 2022",
+    date: "MAR. 02, 2024",
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
@@ -373,7 +373,7 @@ export const blog = [
   {
     id: 5,
     type: "admin",
-    date: "DEC. 14, 2022",
+    date: "FEB. 14, 2024",
     com: "3 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
@@ -382,7 +382,7 @@ export const blog = [
   {
     id: 6,
     type: "user",
-    date: "JAN. 18, 2021",
+    date: "JAN. 18, 2024",
     com: "12 COMMENTS ",
     title: "Build your Dream Software & Engineering Career",
     desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
@@ -392,21 +392,21 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
+    name: "RAHUL SHARMA",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t1.webp",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
+    name: "PRIYA SINGH",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
+    name: "ARJUN PATEL",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t3.webp",

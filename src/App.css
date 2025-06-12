@@ -1,17 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Montserrat:wght@400;600;700&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #f8f8f8;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #f8f8f8 60%, #e6f0f3 100%);
+  color: #181818;
+  min-height: 100vh;
 }
-/*------------global-----------*/
 .container {
   max-width: 85%;
   margin: auto;
+  padding-bottom: 3rem;
 }
 .flexSB {
   display: flex;
@@ -39,52 +42,66 @@ li {
   list-style-type: none;
 }
 .row {
-  width: 50%;
+  width: 100%;
 }
 button {
-  padding: 17px 30px;
-  background-color: #fff;
-  color: #1eb2a6;
-  font-weight: 600;
+  padding: 17px 36px;
+  background: linear-gradient(90deg, #1eb2a6 0%, #17a2b8 100%);
+  color: #fff;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
   border: none;
   margin: 30px 10px 0 0;
-  border-radius: 3px;
+  border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
-  transition: 0.5s;
+  box-shadow: 0 8px 24px -8px rgba(30,178,166,0.15);
+  transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+  letter-spacing: 1px;
 }
 button i {
   margin-left: 20px;
 }
 button:hover {
-  box-shadow: none;
+  background: linear-gradient(90deg, #17a2b8 0%, #1eb2a6 100%);
+  box-shadow: 0 4px 12px -4px rgba(30,178,166,0.25);
+  transform: translateY(-2px) scale(1.03);
 }
 .primary-btn {
-  background-color: #1eb2a6;
+  background: linear-gradient(90deg, #1eb2a6 0%, #17a2b8 100%);
   color: #fff;
 }
-
-/*------------global-----------*/
 #heading {
   text-align: center;
   padding: 40px 0;
 }
 #heading h3 {
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
   color: #1eb2a6;
   text-transform: uppercase;
+  font-size: 1.2rem;
 }
 #heading h1 {
-  font-size: 45px;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-size: 2.8rem;
   margin: 20px 0;
   text-transform: capitalize;
+  font-weight: 800;
+  color: #222;
+  letter-spacing: 1px;
 }
-p {
-  line-height: 30px;
-  font-size: 18px;
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-
+p, li, span, label, input, select, textarea {
+  color: #222;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
 .back {
   background-image: url("../public/images/back.webp");
   background-size: cover;
@@ -101,13 +118,15 @@ p {
   text-align: center;
 }
 .back h1 {
-  font-size: 100px;
-  font-weight: 400;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
 }
 .back h2 {
-  font-weight: 500;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 1.2rem;
   text-transform: uppercase;
+  color: #fff;
 }
 .margin {
   margin-top: 40.3%;
@@ -148,6 +167,28 @@ p {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
 }
+.hero, .aboutHome, .homeAbout, .testimonal, .blog, .contacts, .price, .team {
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 4px 32px -8px rgba(30,178,166,0.07);
+  margin-bottom: 2.5rem;
+  padding: 2.5rem 0;
+}
+
+/* Ensure buttons stand out on light backgrounds */
+button, .primary-btn {
+  color: #fff !important;
+  background: linear-gradient(90deg, #1eb2a6 0%, #17a2b8 100%) !important;
+  border: none;
+}
+
+/* Add a little more space at the bottom of the page */
+body::after {
+  content: '';
+  display: block;
+  height: 60px;
+}
+
 @media screen and (max-width: 768px) {
   .grid2,
   .grid3,

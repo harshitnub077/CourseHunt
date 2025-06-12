@@ -1,48 +1,27 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
+// filepath: /Users/harshitkudhial/Documents/GitHub/CourseHunt/src/components/common/header/Header.jsx
+import React from "react"
 import Head from "./Head"
 import "./header.css"
 
-const Header = () => {
-  const [click, setClick] = useState(false)
-
+const Header = ({ user, setUser }) => {
   return (
     <>
-      <Head />
+      <Head user={user} setUser={setUser} />
       <header>
-        <nav className='flexSB'>
-          <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
-            <li>
-              <Link to='/'>Home</Link>
-            </li>
-            <li>
-              <Link to='/courses'>All Courses</Link>
-            </li>
-            <li>
-              <Link to='/about'>About</Link>
-            </li>
-            <li>
-              <Link to='/team'>Team</Link>
-            </li>
-            <li>
-              <Link to='/pricing'>Pricing</Link>
-            </li>
-            <li>
-              <Link to='/journal'>Journal</Link>
-            </li>
-            <li>
-              <Link to='/contact'>Contact</Link>
-            </li>
+        <nav className="flexSB">
+          <ul className="flexSB">
+            <li><a href="/">Home</a></li>
+            <li><a href="/courses">All Courses</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/team">Team</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+            <li><a href="/journal">Journal</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
-          <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
-          </div>
-          <button className='toggle' onClick={() => setClick(!click)}>
-            {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
-          </button>
         </nav>
       </header>
     </>
   )
 }
-export default Header;
+
+export default Header

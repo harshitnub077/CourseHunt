@@ -3,11 +3,13 @@ import OnlineCourses from "../allcourses/OnlineCourses"
 import Heading from "../common/heading/Heading"
 import "../allcourses/courses.css"
 import { coursesCard } from "../../dummydata"
+import { useHistory } from "react-router-dom"
 
 const HAbout = () => {
+  const history = useHistory()
   return (
     <>
-      <section className='homeAbout'>
+      <section className='homeAbout' id='explore-courses'>
         <div className='container'>
           <Heading subtitle='our courses' title='explore our popular online courses' />
 
@@ -15,7 +17,7 @@ const HAbout = () => {
             {/* copy code form  coursesCard */}
             <div className='grid2'>
               {coursesCard.slice(0, 3).map((val) => (
-                <div className='items'>
+                <div className='items' key={val.coursesName}>
                   <div className='content flex'>
                     <div className='left'>
                       <div className='img'>
@@ -34,7 +36,7 @@ const HAbout = () => {
                       </div>
                       <div className='details'>
                         {val.courTeacher.map((details) => (
-                          <>
+                          <React.Fragment key={details.name}>
                             <div className='box'>
                               <div className='dimg'>
                                 <img src={details.dcover} alt='' />
@@ -44,7 +46,7 @@ const HAbout = () => {
                               </div>
                             </div>
                             <span>{details.totalTime}</span>
-                          </>
+                          </React.Fragment>
                         ))}
                       </div>
                     </div>
@@ -54,7 +56,7 @@ const HAbout = () => {
                       {val.priceAll} / {val.pricePer}
                     </h3>
                   </div>
-                  <button className='outline-btn'>ENROLL NOW !</button>
+                  <button className='outline-btn' onClick={() => history.push('/courses')}>ENROLL NOW !</button>
                 </div>
               ))}
             </div>
