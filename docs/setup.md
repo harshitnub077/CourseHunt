@@ -8,3 +8,5 @@ Prerequisites:
 Create a `.env` file with `REACT_APP_API_URL`.
 
 <!-- Formatting tweak -->
+
+<!-- Updated developer setup prerequisites for 2026 -->
